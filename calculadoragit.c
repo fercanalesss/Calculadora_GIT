@@ -396,3 +396,13 @@ void estadistica(int arr[], int size, double *media, double *mediana, int *moda)
     calcularMediana(arr, size, mediana);
     calcularMedia(arr, size, media);
 }
+
+int lim
+if (cuenta_historial>10){
+lim=10;
+}else{
+lim=cuenta_historial;
+} 
+for (i=0;i<lim;i++){
+printf ("Operacion#%d\n Tipo:%c\n Operandos: %d %d %d\n Resultado int:%d\n Resultado floats %lf %lf %lf\n", i, 
+historial
